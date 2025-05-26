@@ -15,7 +15,7 @@ namespace romaps_be.Controllers
             if (!Directory.Exists(highwaysDir))
                 return NotFound();
 
-            var files = Directory.GetFiles(highwaysDir, "*.json");
+            var files = Directory.GetFiles(highwaysDir, "*.geojson");
             var highways = files.Select(file => System.IO.File.ReadAllText(file)).ToList();
 
             // If each file is a Feature or FeatureCollection, you may want to combine them into a single array or FeatureCollection.
@@ -25,12 +25,26 @@ namespace romaps_be.Controllers
         [HttpGet("borders")]
         public IActionResult GetBordersGeoJson()
         {
-            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "Roboundary", "romania_Romania_Country_Boundary.geojson");
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "Roboundary", "ro-border.geojson");
             if (!System.IO.File.Exists(filePath))
                 return NotFound();
 
             var geoJson = System.IO.File.ReadAllText(filePath);
             return Content(geoJson, "application/json");
+        }
+
+        [HttpGet("nationalRoads")]
+        public IActionResult GetNationalRoadsGeoJson()
+        {
+            var roadsDir = Path.Combine(Directory.GetCurrentDirectory(), "Data", "NationalRoads");
+            if (!Directory.Exists(roadsDir))
+                return NotFound();
+
+            var files = Directory.GetFiles(roadsDir, "*.geojson");
+            var roads = files.Select(file => System.IO.File.ReadAllText(file)).ToList();
+
+            // Combine all GeoJSON features into a single array
+            return Content($"[{string.Join(",", roads)}]", "application/json");
         }
     }
 }

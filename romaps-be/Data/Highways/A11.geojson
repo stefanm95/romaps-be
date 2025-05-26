@@ -1,0 +1,1305 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-26T07:06:30Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/127628394",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "maxspeed:backward": "60",
+        "maxspeed:forward": "100",
+        "oneway": "no",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2315611,
+            46.2019801
+          ],
+          [
+            21.2318049,
+            46.2012902
+          ],
+          [
+            21.2318335,
+            46.2011763
+          ],
+          [
+            21.2318526,
+            46.2010609
+          ],
+          [
+            21.2318551,
+            46.2009495
+          ],
+          [
+            21.2318441,
+            46.200839
+          ],
+          [
+            21.2318157,
+            46.2007202
+          ],
+          [
+            21.2317673,
+            46.2006003
+          ],
+          [
+            21.2317007,
+            46.200486
+          ],
+          [
+            21.2316161,
+            46.2003757
+          ],
+          [
+            21.2314771,
+            46.2002388
+          ],
+          [
+            21.2313189,
+            46.2001096
+          ],
+          [
+            21.2307909,
+            46.1997468
+          ]
+        ]
+      },
+      "id": "way/127628394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/142144044",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2297337,
+            46.1978313
+          ],
+          [
+            21.229965,
+            46.1974411
+          ],
+          [
+            21.2301769,
+            46.1970946
+          ],
+          [
+            21.2303539,
+            46.1968057
+          ],
+          [
+            21.2308787,
+            46.1959567
+          ],
+          [
+            21.231427,
+            46.195063
+          ],
+          [
+            21.2317235,
+            46.1945805
+          ]
+        ]
+      },
+      "id": "way/142144044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/142145604",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2307909,
+            46.1997468
+          ],
+          [
+            21.230374,
+            46.1995032
+          ],
+          [
+            21.2301698,
+            46.1993753
+          ],
+          [
+            21.2299897,
+            46.1992353
+          ],
+          [
+            21.2297991,
+            46.1990899
+          ],
+          [
+            21.2297071,
+            46.1989772
+          ],
+          [
+            21.2296338,
+            46.1988615
+          ],
+          [
+            21.2295833,
+            46.1987491
+          ],
+          [
+            21.2295476,
+            46.1986367
+          ],
+          [
+            21.2295278,
+            46.1985267
+          ],
+          [
+            21.2295252,
+            46.1984076
+          ],
+          [
+            21.2295404,
+            46.1982973
+          ],
+          [
+            21.2295679,
+            46.1981838
+          ],
+          [
+            21.2296057,
+            46.1980748
+          ],
+          [
+            21.2296595,
+            46.1979623
+          ],
+          [
+            21.2297337,
+            46.1978313
+          ]
+        ]
+      },
+      "id": "way/142145604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/142145779",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "maxspeed": "60",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2298849,
+            46.1979176
+          ],
+          [
+            21.2298366,
+            46.1980055
+          ],
+          [
+            21.2297879,
+            46.1981105
+          ],
+          [
+            21.2297512,
+            46.1982096
+          ],
+          [
+            21.2297209,
+            46.198309
+          ],
+          [
+            21.2297038,
+            46.1984157
+          ],
+          [
+            21.2297028,
+            46.1985197
+          ],
+          [
+            21.2297149,
+            46.1986211
+          ],
+          [
+            21.2297407,
+            46.1987262
+          ],
+          [
+            21.2297805,
+            46.1988253
+          ],
+          [
+            21.2298394,
+            46.1989303
+          ],
+          [
+            21.2299231,
+            46.1990384
+          ],
+          [
+            21.2300912,
+            46.1991949
+          ],
+          [
+            21.2302637,
+            46.1993345
+          ],
+          [
+            21.2304431,
+            46.1994691
+          ],
+          [
+            21.2307909,
+            46.1997468
+          ]
+        ]
+      },
+      "id": "way/142145779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/350946329",
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.256517,
+            46.1835165
+          ],
+          [
+            21.2552991,
+            46.1834961
+          ],
+          [
+            21.25499,
+            46.1834993
+          ],
+          [
+            21.2537467,
+            46.1835143
+          ],
+          [
+            21.252503,
+            46.1835295
+          ],
+          [
+            21.2518826,
+            46.1835416
+          ],
+          [
+            21.2514129,
+            46.1835548
+          ],
+          [
+            21.2511039,
+            46.1835658
+          ],
+          [
+            21.2506381,
+            46.1835889
+          ],
+          [
+            21.2501743,
+            46.1836184
+          ],
+          [
+            21.2494036,
+            46.183684
+          ],
+          [
+            21.248944,
+            46.1837325
+          ],
+          [
+            21.2484839,
+            46.1837886
+          ],
+          [
+            21.2480283,
+            46.183852
+          ],
+          [
+            21.247573,
+            46.1839225
+          ],
+          [
+            21.2472702,
+            46.1839736
+          ]
+        ]
+      },
+      "id": "way/350946329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/354925055",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2319456,
+            46.1942167
+          ],
+          [
+            21.232738,
+            46.1929181
+          ],
+          [
+            21.2330929,
+            46.1923432
+          ]
+        ]
+      },
+      "id": "way/354925055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/354925056",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "maxspeed": "80",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2318605,
+            46.1946199
+          ],
+          [
+            21.231549,
+            46.1951268
+          ],
+          [
+            21.2310016,
+            46.1960112
+          ],
+          [
+            21.2309346,
+            46.1961231
+          ]
+        ]
+      },
+      "id": "way/354925056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/354925059",
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2317235,
+            46.1945805
+          ],
+          [
+            21.2319456,
+            46.1942167
+          ]
+        ]
+      },
+      "id": "way/354925059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/354925061",
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "80",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2320843,
+            46.1942542
+          ],
+          [
+            21.2318605,
+            46.1946199
+          ]
+        ]
+      },
+      "id": "way/354925061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/354925449",
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "80",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2333571,
+            46.1921815
+          ],
+          [
+            21.2331971,
+            46.1924324
+          ]
+        ]
+      },
+      "id": "way/354925449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/354925451",
+        "highway": "motorway",
+        "lanes": "2",
+        "maxheight": "5.5",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2395151,
+            46.1864938
+          ],
+          [
+            21.2397556,
+            46.1863656
+          ],
+          [
+            21.2399978,
+            46.186239
+          ],
+          [
+            21.2402441,
+            46.1861158
+          ],
+          [
+            21.2404892,
+            46.185996
+          ],
+          [
+            21.2409973,
+            46.1857609
+          ],
+          [
+            21.2413811,
+            46.1855915
+          ],
+          [
+            21.241819,
+            46.1854081
+          ],
+          [
+            21.2423128,
+            46.1852139
+          ],
+          [
+            21.2425821,
+            46.185114
+          ],
+          [
+            21.2431215,
+            46.1849235
+          ],
+          [
+            21.2438077,
+            46.1846994
+          ],
+          [
+            21.2445059,
+            46.1844931
+          ],
+          [
+            21.2452193,
+            46.1843023
+          ],
+          [
+            21.2456499,
+            46.1841978
+          ],
+          [
+            21.2460842,
+            46.1840993
+          ],
+          [
+            21.2466651,
+            46.1839793
+          ],
+          [
+            21.2472447,
+            46.1838719
+          ],
+          [
+            21.2478322,
+            46.1837758
+          ],
+          [
+            21.2482772,
+            46.1837118
+          ],
+          [
+            21.2488943,
+            46.1836263
+          ],
+          [
+            21.2498474,
+            46.1835054
+          ]
+        ]
+      },
+      "id": "way/354925451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/354925453",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "maxspeed": "80",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2331971,
+            46.1924324
+          ],
+          [
+            21.2328904,
+            46.1929305
+          ],
+          [
+            21.2320843,
+            46.1942542
+          ]
+        ]
+      },
+      "id": "way/354925453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/354925455",
+        "bridge": "yes",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2330929,
+            46.1923432
+          ],
+          [
+            21.2332724,
+            46.1920619
+          ]
+        ]
+      },
+      "id": "way/354925455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/674751022",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "3",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "placement": "right_of:1",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro",
+        "turn:lanes": "||merge_to_left"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2472702,
+            46.1839736
+          ],
+          [
+            21.2468191,
+            46.1840568
+          ],
+          [
+            21.2463727,
+            46.1841453
+          ],
+          [
+            21.2459271,
+            46.1842421
+          ],
+          [
+            21.2456328,
+            46.1843115
+          ],
+          [
+            21.2451922,
+            46.184419
+          ],
+          [
+            21.2449002,
+            46.1844958
+          ],
+          [
+            21.2440395,
+            46.1847416
+          ],
+          [
+            21.2436131,
+            46.1848749
+          ],
+          [
+            21.2431923,
+            46.1850144
+          ],
+          [
+            21.2427759,
+            46.1851597
+          ],
+          [
+            21.2425036,
+            46.1852593
+          ]
+        ]
+      },
+      "id": "way/674751022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/674751024",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "maxheight": "5.5",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2425036,
+            46.1852593
+          ],
+          [
+            21.2419587,
+            46.1854706
+          ],
+          [
+            21.2414224,
+            46.1856952
+          ],
+          [
+            21.2411617,
+            46.1858097
+          ],
+          [
+            21.2406435,
+            46.186049
+          ],
+          [
+            21.2403884,
+            46.1861724
+          ],
+          [
+            21.2401366,
+            46.1862973
+          ],
+          [
+            21.2398862,
+            46.1864264
+          ],
+          [
+            21.2396387,
+            46.1865585
+          ],
+          [
+            21.239395,
+            46.1866922
+          ],
+          [
+            21.2391554,
+            46.1868272
+          ],
+          [
+            21.2386791,
+            46.1871088
+          ],
+          [
+            21.2383321,
+            46.1873252
+          ],
+          [
+            21.237992,
+            46.1875475
+          ],
+          [
+            21.2376591,
+            46.1877745
+          ],
+          [
+            21.237334,
+            46.1880067
+          ],
+          [
+            21.2370168,
+            46.1882448
+          ],
+          [
+            21.2368096,
+            46.1884056
+          ],
+          [
+            21.2366052,
+            46.1885695
+          ],
+          [
+            21.2363057,
+            46.1888188
+          ],
+          [
+            21.2361108,
+            46.1889873
+          ],
+          [
+            21.235921,
+            46.1891565
+          ],
+          [
+            21.2357324,
+            46.1893294
+          ],
+          [
+            21.2354561,
+            46.1895938
+          ],
+          [
+            21.2352781,
+            46.1897711
+          ],
+          [
+            21.2351047,
+            46.1899499
+          ],
+          [
+            21.234769,
+            46.1903121
+          ],
+          [
+            21.2345247,
+            46.1905918
+          ],
+          [
+            21.2341443,
+            46.1910607
+          ]
+        ]
+      },
+      "id": "way/674751024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/704852017",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "1",
+        "maxspeed": "50",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2315611,
+            46.2019801
+          ],
+          [
+            21.2315482,
+            46.2020907
+          ],
+          [
+            21.2314614,
+            46.2023332
+          ],
+          [
+            21.2314418,
+            46.2023837
+          ],
+          [
+            21.2314078,
+            46.2025042
+          ]
+        ]
+      },
+      "id": "way/704852017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/704852018",
+        "destination": "București;Lugoj;Timișoara;Arad;Nădlac",
+        "destination:ref": "A1",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "1",
+        "maxspeed": "50",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2311756,
+            46.2027572
+          ],
+          [
+            21.2311942,
+            46.2027122
+          ],
+          [
+            21.2312277,
+            46.2026631
+          ],
+          [
+            21.2312588,
+            46.2026181
+          ],
+          [
+            21.2313785,
+            46.2023746
+          ],
+          [
+            21.2314189,
+            46.2022069
+          ],
+          [
+            21.2314747,
+            46.2020672
+          ],
+          [
+            21.2315611,
+            46.2019801
+          ]
+        ]
+      },
+      "id": "way/704852018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/865716374",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2332724,
+            46.1920619
+          ],
+          [
+            21.2334103,
+            46.1918528
+          ],
+          [
+            21.2336056,
+            46.1915653
+          ],
+          [
+            21.2337761,
+            46.1913255
+          ],
+          [
+            21.2340211,
+            46.191002
+          ],
+          [
+            21.2343944,
+            46.1905425
+          ],
+          [
+            21.2346313,
+            46.1902713
+          ],
+          [
+            21.2349576,
+            46.189917
+          ],
+          [
+            21.2351273,
+            46.1897414
+          ],
+          [
+            21.2353011,
+            46.1895674
+          ],
+          [
+            21.2355683,
+            46.1893114
+          ],
+          [
+            21.2357473,
+            46.1891443
+          ],
+          [
+            21.2360039,
+            46.1889153
+          ],
+          [
+            21.2361592,
+            46.1887812
+          ],
+          [
+            21.236451,
+            46.1885364
+          ],
+          [
+            21.2366492,
+            46.1883769
+          ],
+          [
+            21.2369523,
+            46.1881411
+          ],
+          [
+            21.2372636,
+            46.1879101
+          ],
+          [
+            21.2375839,
+            46.1876819
+          ],
+          [
+            21.2379085,
+            46.1874608
+          ],
+          [
+            21.2382383,
+            46.1872445
+          ],
+          [
+            21.2385774,
+            46.1870338
+          ],
+          [
+            21.2390406,
+            46.186759
+          ],
+          [
+            21.2392766,
+            46.1866251
+          ],
+          [
+            21.2395151,
+            46.1864938
+          ]
+        ]
+      },
+      "id": "way/865716374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1034802192",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "1",
+        "maxspeed": "30",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2314078,
+            46.2025042
+          ],
+          [
+            21.2313806,
+            46.2026617
+          ],
+          [
+            21.2313749,
+            46.2027221
+          ],
+          [
+            21.2313963,
+            46.2027994
+          ]
+        ]
+      },
+      "id": "way/1034802192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1363423904",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "maxspeed": "60",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2309346,
+            46.1961231
+          ],
+          [
+            21.2301847,
+            46.1974111
+          ],
+          [
+            21.2301383,
+            46.1974903
+          ],
+          [
+            21.2298849,
+            46.1979176
+          ]
+        ]
+      },
+      "id": "way/1363423904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1363423905",
+        "highway": "motorway",
+        "int_ref": "E 68",
+        "lanes": "2",
+        "maxheight": "5.5",
+        "maxspeed": "80",
+        "oneway": "yes",
+        "ref": "A11",
+        "smoothness": "excellent",
+        "source": "gps",
+        "start_date": "2012",
+        "surface": "asphalt",
+        "surface_survey": "NOV2015_@akacrys_forum.peundemerg.ro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.2341443,
+            46.1910607
+          ],
+          [
+            21.233941,
+            46.1913292
+          ],
+          [
+            21.2337167,
+            46.1916414
+          ],
+          [
+            21.2335169,
+            46.191936
+          ],
+          [
+            21.2333571,
+            46.1921815
+          ]
+        ]
+      },
+      "id": "way/1363423905"
+    }
+  ]
+}
