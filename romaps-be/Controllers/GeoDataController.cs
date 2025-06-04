@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using System.Linq;
+using Newtonsoft.Json.Linq;
+
 
 namespace romaps_be.Controllers
 {
@@ -18,7 +20,6 @@ namespace romaps_be.Controllers
             var files = Directory.GetFiles(highwaysDir, "*.geojson");
             var highways = files.Select(file => System.IO.File.ReadAllText(file)).ToList();
 
-            // If each file is a Feature or FeatureCollection, you may want to combine them into a single array or FeatureCollection.
             return Content($"[{string.Join(",", highways)}]", "application/json");
         }
 
@@ -43,8 +44,55 @@ namespace romaps_be.Controllers
             var files = Directory.GetFiles(roadsDir, "*.geojson");
             var roads = files.Select(file => System.IO.File.ReadAllText(file)).ToList();
 
-            // Combine all GeoJSON features into a single array
             return Content($"[{string.Join(",", roads)}]", "application/json");
+        }
+
+        [HttpGet("nationalRoads/filter")]
+        public IActionResult GetFilteredNationalRoads([FromQuery] string refValue)
+        {
+            if (string.IsNullOrEmpty(refValue))
+                return BadRequest("Query parameter 'refValue' is required.");
+
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(),
+                "Data", "NationalRoads", "merged_national_roads.geojson");
+            if (!System.IO.File.Exists(filePath))
+                return NotFound("GeoJson file not found.");
+
+            var geoJsonText = System.IO.File.ReadAllText(filePath);
+            var root = JObject.Parse(geoJsonText);
+
+            var features = root["features"] as JArray;
+            if (features == null)
+                return Ok(new { type = "FeatureCollection", features = new JArray() });
+
+            var filteredFeatures = new JArray();
+
+            foreach (var feature in features)
+            {
+                var properties = feature["properties"];
+                if (properties == null || properties["ref"] == null)
+                    continue;
+
+                var refTag = properties["ref"].ToString();       // e.g. "DN1;DN7"
+                var parts = refTag.Split(';');                    // ["DN1","DN7"]
+
+                foreach (var part in parts)
+                {
+                    if (part.Equals(refValue, StringComparison.OrdinalIgnoreCase))
+                    {
+                        filteredFeatures.Add(feature);
+                        break;
+                    }
+                }
+            }
+
+            var filteredGeoJson = new JObject
+            {
+                ["type"] = "FeatureCollection",
+                ["features"] = filteredFeatures
+            };
+
+            return Content(filteredGeoJson.ToString(), "application/json");
         }
     }
 }
